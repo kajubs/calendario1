@@ -1,0 +1,19 @@
+.btn{
+background : center;
+padding : 100x 500x;
+width :1500px;
+height: 60px;
+color: #000;
+background:#3e5db9 ;
+border:1px,solid,#555;
+text-align: center;
+user-select: none;
+cursor: pointer;
+font-size: 50px;
+font-style: italic;
+
+}
+.btn:hover{
+    background-color:#92a2d4 ;
+    transition: 1s;
+}
