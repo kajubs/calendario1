@@ -1,19 +1,73 @@
-.btn{
-background : center;
-padding : 100x 500x;
-width :1500px;
-height: 60px;
-color: #000;
-background:#3e5db9 ;
-border:1px,solid,#555;
-text-align: center;
-user-select: none;
-cursor: pointer;
-font-size: 50px;
-font-style: italic;
+
+a{
+font-size: 100px;
+color: black;
+padding-left: 600px;
+padding-right: 600px;
+background-color: orange;
+word-wrap: break-word;
+align-content: center;
 
 }
-.btn:hover{
+a:hover{
     background-color:#92a2d4 ;
     transition: 1s;
+}
+h1{font-size: 60px;
+}
+
+
+
+/*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(255, 85, 23);
+}
+.wraper{
+    max-width: 760px;
+    margin: 10px auto;
+    padding: 40px;
+    background-color: rgb(3, 2, 2);
+}
+.wraper{
+    display: flex;
+    flex-wrap:wrap ;
+}
+
+.dias span{
+    color:rgb(178, 176, 176);
+    width: 100%;
+    margin-bottom: 60px 10px;
+}
+    
+.dias{
+    display: flex;
+    width: 100%;
+    height: 80px;
+    justify-content: space-between;
+    border-bottom: 3.5px solid coral ;
+    border: 20%;
+    padding: 20px 0;
+    border-radius: 10px;
+    
+}
+
+.numeros span{
+    color: bisque;
+    display: inline-block;
+    width: 14.2%;
+
+    margin-bottom: 60px 8px;
+}
+
+.numeros{
+    display: flex;
+    width: 100%;
+    height: 500px;
+    flex-wrap: wrap;
+
 }
